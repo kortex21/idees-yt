@@ -58,7 +58,9 @@ Philosophie à placer : **« On produit sur les distros qu'on maîtrise. »**
   - Gentoo = je choisis ce qui est compilé (USE flags)
   - Anecdote : 1re install de bspwm sous Gentoo, le dual screen vu comme un seul écran à cause du USE `xinerama`
     - punchline possible : « Sous Arch, quelqu'un fait des choix bizarres à ta place. Sous Gentoo, c'est toi. »
-    - [ ] préciser sur quel paquet était le flag et le mécanisme exact (les gentooistes vont vérifier)
+    - le flag était **global** dans `make.conf` (à l'époque je mettais tous mes USE là) → activé sur tous les paquets qui le supportent
+    - leçon parfaite pour l'épisode Installation : `make.conf` (global) vs `/etc/portage/package.use` (par paquet)
+    - [ ] mécanisme exact à vérifier avant tournage (quel paquet a fait basculer l'affichage)
     - pont vers l'épisode Installation (USE flags, `make.conf` trop permissif)
 
 ### Installation Gentoo en questions-réponses
