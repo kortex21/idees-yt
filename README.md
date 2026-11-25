@@ -53,7 +53,13 @@ Philosophie à placer : **« On produit sur les distros qu'on maîtrise. »**
 
 À éclaircir :
 - [ ] « 30 ans sous Windows » : mon âge au moment du switch, ou 30 ans d'utilisation ?
-- [ ] Qu'est-ce que Gentoo m'a apporté qu'Arch ne pouvait pas me donner ?
+- [x] Qu'est-ce que Gentoo m'a apporté qu'Arch ne pouvait pas me donner ?
+  - Arch = paquets binaires, les choix sont faits par d'autres → ça reste « embarqué » (même reproche que Windows au Jour 0 : fil rouge de l'épisode)
+  - Gentoo = je choisis ce qui est compilé (USE flags)
+  - Anecdote : 1re install de bspwm sous Gentoo, le dual screen vu comme un seul écran à cause du USE `xinerama`
+    - punchline possible : « Sous Arch, quelqu'un fait des choix bizarres à ta place. Sous Gentoo, c'est toi. »
+    - [ ] préciser sur quel paquet était le flag et le mécanisme exact (les gentooistes vont vérifier)
+    - pont vers l'épisode Installation (USE flags, `make.conf` trop permissif)
 
 ### Installation Gentoo en questions-réponses
 
