@@ -1,7 +1,13 @@
 # idee-yt — Chaîne YouTube de tutos informatiques
 
-> Statut : exploration (mode détente). Rien de décidé, Nextcloud reste prioritaire.
+> Statut : exploration (mode détente). Rien de décidé, Nextcloud et l'infra restent prioritaires.
 > Dernière mise à jour : 2026-11-25
+
+## Fonctionnement
+
+- Ce README est la **source de vérité** du projet ; signalé en début de chat
+- Claude le met à jour, commit et pousse à chaque avancée
+- Rôle de Claude : co-auteur des scripts + « débutant » qui pose les questions bêtes (Q/R, zones d'impro)
 
 ## Concept
 
